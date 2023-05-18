@@ -7,4 +7,5 @@ router.post('/propertys',upload(), Property.propertys);
 router.get('/getProperty', Property.getProperty)
 
 
+
 module.exports = router ;

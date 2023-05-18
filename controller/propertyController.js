@@ -48,3 +48,7 @@ exports.getProperty = async (req, res) => {
         res.send(properties);
       }
   }
+
+  exports.login = async(req, res) => {
+    
+  }

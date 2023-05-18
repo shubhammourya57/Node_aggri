@@ -13,6 +13,8 @@ const storage = multer.diskStorage({
     }
 })
 
+
+
 //mutler File Fileter
 const fileFilter = (req, file, cb) => {
     if (file.mimetype === 'image/jpeg' || file.mimetype === 'image/png') {
